@@ -7,7 +7,7 @@ import pymssql
 # password = ''
 
 query = "SELECT * FROM italgas"
-conn = pymssql.connect('DESKTOP-C5OPVAC\MSSQLSERVER1', 'sa', 'Novedad01', 'italgas')
+conn = pymssql.connect('DESKTOP-C5OPVAC\MSSQLSERVER1', 'sa', 'pass', 'nomb_tb')
 cursor = conn.cursor(as_dict=True)
 cursor.execute(query)
 for row in cursor:

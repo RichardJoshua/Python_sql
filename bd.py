@@ -27,7 +27,7 @@ import pyodbc
 direccion_servidor = 'DESKTOP-C5OPVAC\MSSQLSERVER1'     #'127.0.0.1'
 nombre_bd = 'italgas'              #'pruebas_parzibyte'
 nombre_usuario = 'sa'
-password = 'Novedad01'
+password = 'pass'
 try:
     conexion = pyodbc.connect('DRIVER={SQL Server};SERVER='+direccion_servidor+';DATABASE='+nombre_bd+';UID='+nombre_usuario+';PWD=' + password)
     # conexion = pyodbc.connect('DRIVER={ODBC Driver 13 for SQL Server};SERVER='+direccion_servidor+';DATABASE='+nombre_bd+';UID='+nombre_usuario+';PWD=' + password)

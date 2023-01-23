@@ -2,9 +2,9 @@ import pymssql
 
 
 # direccion_servidor = 'DESKTOP-C5OPVAC\MSSQLSERVER1'     #'127.0.0.1'
-# nombre_bd = 'italgas'              #'pruebas_parzibyte'
-# nombre_usuario = 'sa'
-# password = 'Novedad01'
+# nombre_bd = ''              #'pruebas_parzibyte'
+# nombre_usuario = ''
+# password = ''
 
 query = "SELECT * FROM italgas"
 conn = pymssql.connect('DESKTOP-C5OPVAC\MSSQLSERVER1', 'sa', 'Novedad01', 'italgas')
